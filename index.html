@@ -1,11 +1,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function(){
-    document.getElementById('MM').onclick = function(){
-       $(document).ready(function() {
-    $("#mm").addClass("animated shake");
-  });
-    }
+  $(document).ready(function() {
+    $("button").addClass("animated bounce");
   });
 </script>
 <!DOCTYPE html>
@@ -41,15 +37,15 @@
 </style>
 	<title>Tanya-Lai's personal page</title>
 	<body class="background">
-		<h1 class="white-text text-center">Hi! 歡迎來到我的網頁</h1>
-		<h2 class="blue-text text-center">我是賴可唐</h2>
-				<p class="blue-text text-center">       一個懶癌末期兼手機重度成癮症患者</p>
+		<h1 class="white-text">Hi! 歡迎來到我的網頁</h1>
+		<h2 class="blue-text">我是賴可唐</h2>
+				<p class="blue-text">       一個懶癌末期兼手機重度成癮症患者</p>
 		<p class="blue1-text">這是我們家的貓貓們</p>
 		<div class="row">
-		<button class="blue1-text" id="MM">麵麵</p>
-		<button class="blue1-text" id="GG">關關</p>
-		<button class="blue1-text" id="Tom">湯姆</p>
-		<button class="blue1-text" id="BB">貝貝</p>
+		<button class="blue1-text btn btn-default" id="MM">麵麵</p>
+		<button class="blue1-text btn btn-default" id="GG">關關</p>
+		<button class="blue1-text btn btn-default" id="Tom">湯姆</p>
+		<button class="blue1-text btn btn-default" id="BB">貝貝</p>
 		</div>
     		<a href="#"><img class="smaller-image" id="mm" src="https://github.com/Tanya-Lai/Tanya-Lai.github.io/blob/main/%E9%BA%B5%E9%BA%B5.jpg?raw=true" alt="麵麵"></a>
 		<a href="#"><img class="smaller-image" id="gg" src="https://github.com/Tanya-Lai/Tanya-Lai.github.io/blob/main/%E9%97%9C%E9%97%9C.jpeg?raw=true" alt="關關"></a>
