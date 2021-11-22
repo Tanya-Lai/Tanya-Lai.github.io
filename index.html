@@ -1,3 +1,13 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    document.getElementById('MM').onclick = function(){
+       $(document).ready(function() {
+    $("#mm").addClass("animated shake");
+  });
+    }
+  });
+</script>
 <!DOCTYPE html>
 <html>
 <style>
@@ -31,14 +41,19 @@
 </style>
 	<title>Tanya-Lai's personal page</title>
 	<body class="background">
-		<h1 class="white-text">Hi! 歡迎來到我的網頁</h1>
-		<h2 class="blue-text">我是賴可唐</h2>
-				<p class="blue-text">       一個懶癌末期兼手機重度成癮症患者</p>
+		<h1 class="white-text text-center">Hi! 歡迎來到我的網頁</h1>
+		<h2 class="blue-text text-center">我是賴可唐</h2>
+				<p class="blue-text text-center">       一個懶癌末期兼手機重度成癮症患者</p>
 		<p class="blue1-text">這是我們家的貓貓們</p>
-		<p class="blue1-text">麵麵，關關，湯姆，貝貝</p>
-    		<a href="#"><img class="smaller-image" src="https://github.com/Tanya-Lai/Tanya-Lai.github.io/blob/main/%E9%BA%B5%E9%BA%B5.jpg?raw=true" alt="麵麵"></a>
-		<a href="#"><img class="smaller-image" src="https://github.com/Tanya-Lai/Tanya-Lai.github.io/blob/main/%E9%97%9C%E9%97%9C.jpeg?raw=true" alt="關關"></a>
-		<a href="#"><img class="bigger-image" src="https://github.com/Tanya-Lai/Tanya-Lai.github.io/blob/main/%E6%B9%AF%E5%A7%86.jpeg?raw=true" alt="湯姆"></a>
-		<a href="#"><img class="bigger-image" src="https://github.com/Tanya-Lai/Tanya-Lai.github.io/blob/main/%E8%B2%9D%E8%B2%9D.jpeg?raw=true" alt="貝貝"></a>
+		<div class="row">
+		<button class="blue1-text" id="MM">麵麵</p>
+		<button class="blue1-text" id="GG">關關</p>
+		<button class="blue1-text" id="Tom">湯姆</p>
+		<button class="blue1-text" id="BB">貝貝</p>
+		</div>
+    		<a href="#"><img class="smaller-image" id="mm" src="https://github.com/Tanya-Lai/Tanya-Lai.github.io/blob/main/%E9%BA%B5%E9%BA%B5.jpg?raw=true" alt="麵麵"></a>
+		<a href="#"><img class="smaller-image" id="gg" src="https://github.com/Tanya-Lai/Tanya-Lai.github.io/blob/main/%E9%97%9C%E9%97%9C.jpeg?raw=true" alt="關關"></a>
+		<a href="#"><img class="bigger-image" id="tom" src="https://github.com/Tanya-Lai/Tanya-Lai.github.io/blob/main/%E6%B9%AF%E5%A7%86.jpeg?raw=true" alt="湯姆"></a>
+		<a href="#"><img class="bigger-image" id="bb" src="https://github.com/Tanya-Lai/Tanya-Lai.github.io/blob/main/%E8%B2%9D%E8%B2%9D.jpeg?raw=true" alt="貝貝"></a>
 	</body>
 </html>
